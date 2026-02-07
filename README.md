@@ -1,6 +1,6 @@
-# 🔗 URL Shortener (Scalable & Zero-Tolerance)
+# 🔗 Distributed Redirect Processing & Observability Pipeline (Scalable & Zero-Tolerance)
 
-A **highly scalable**, **zero-tolerance** URL shortener built with **Go**, **PostgreSQL**, and **Redis**. Designed to be production-ready with support for fault tolerance, high availability, and extensibility.
+A **highly scalable**, **zero-tolerance** Distributed Pipeline built with **Go**, **PostgreSQL**, and **Redis**. Designed to be production-ready with support for fault tolerance, high availability, and extensibility.
 
 ---
 
@@ -45,7 +45,7 @@ docker compose exec redis redis-cli
 
 <pre> 
 
-url_shortner/
+./
 │
 ├── backend/                     # Go backend for URL shortening service
 │   ├── cmd/
